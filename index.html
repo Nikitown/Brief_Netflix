@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+    <title>API Movie : Netflix Clone</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header>
+            <div class="netflixLogo">
+                <a id="logo" href="#home"><img src="./assets/logoheader.svg""
+                        alt=" Logo Image"></a>
+            </div>
+            <nav class="main-nav">
+                <input type="text" id="movie-name" placeholder="Search here...">
+                <button id="search-btn">Search</button>
+            </nav>
+        </header>
+        <!-- END OF HEADER -->
+    </div>
+    <section class="head-img">
+        <img src=".//assets/herobanner.jpg">
+    </section>
+    <h2>FILMS DU MOMENT</h2>
+    <div id="card-topmovies" class="top-movies"></div>
+    <h2>TOP RATED MOVIES</h2>
+    <div id="card-topratedmovies" class="top-movies"></div>
+    <h3>TEST CAROUSEL</h3>
+
+
+    <script src="script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+</body>
+
+</html>
